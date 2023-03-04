@@ -1,0 +1,341 @@
+@import url('https://fonts.googleapis.com/css2?family=Saira&family=Salsa&family=Scada&family=Scheherazade+New:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #ffff;
+    position: relative;
+    box-sizing: border-box;
+}
+
+/*PC or Tv*/
+
+.navbar{
+    float: right;
+
+    user-select: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+
+.logo{
+    user-select: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+
+.logo .brand{
+    float: left;
+    padding: 0;
+    margin-left: 50px;
+    margin-top: 10px;
+
+    font-family: 'Scheherazade';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+
+    color: #000;
+}
+
+.logo a{
+    text-decoration: none;
+}
+
+.logo p{
+    font-family: 'Scheherazade';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+
+    color: #000;
+
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 35px;
+    left: 49px;
+}
+
+.navbar ul{
+    list-style: none;
+}
+
+.navbar li{
+    display: inline-block;
+    padding-right: 60px;
+    margin-top: 10px;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: #000;
+
+    font-family: 'Scada';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+/*Contents*/
+
+.headline h2{
+    position: absolute;
+    top: 140px;
+    left: 48px;
+
+    font-family: 'salsa';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 45px;
+}
+
+.headline p{
+    position: absolute;
+    top: 260px;
+    left: 48px;
+    
+    font-family: 'saira';
+    font-style: normal;
+    font-weight: 400;
+    display: flex;
+    text-align: justify;
+    align-items: flex-end;
+    font-size: 18px;
+
+    color: #000;
+}
+
+.sub {
+    box-sizing: border-box;
+    width: 500px;
+    height: 240px;
+    position: absolute;
+    top: 340px;
+    left: 48px;
+
+    border: 2px solid #000;
+    background-color: #fff;
+}
+
+.sub h2{
+    position: absolute;
+    top: 80px;
+    left: 50px;
+    
+    font-family: 'salsa';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 45px;
+
+    color: #000;
+}
+
+.sub p{
+    position: absolute;
+    top: 50px;
+    left: 160px;
+
+    font-family: 'saira';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: justify;
+    line-height: 38px;
+    
+    color: #000;
+}
+
+.buttons{
+    position: absolute;
+    width: 250px;
+    height: 50px;
+    top: 590px;
+    left: 48px;
+
+    background-color: #F1D5D5;
+}
+
+.buttons a{
+    position: absolute;
+    top: 15px;
+    left: 22px;
+
+    font-family: 'salsa';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+
+    color: #000;
+    background: none;
+    text-decoration: none;
+}
+
+.links a{
+    position: absolute;
+    top: 600px;
+    left: 320px;
+
+    font-family: 'saira';
+    font-style: none;
+    font-weight: 400;
+    font-size: 15px;
+    text-decoration: underline;
+
+    color: #000;
+}
+
+.links img{
+    text-decoration: none;
+
+    position: absolute;
+    top: -5px;
+    left: 150px;
+    width: 78px;
+    height: 40px;
+}
+
+.products .item-1 {
+    cursor: pointer;
+}
+
+.products .item-1 img{
+    position: absolute;
+    width: 380px;
+    height: 480px;
+    top: 140px;
+    left: 595px;
+
+    border-radius: 15px;
+}
+
+.products .item-1 .tag {
+    position: absolute;
+    width: 350px;
+    height: 50px;
+    top: 560px;
+    left: 610px;
+
+    background: #fff;
+    border-radius: 10px;
+}
+
+.products .item-1 .tag h3{
+    font-family: 'salsa';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    padding-left: 10px;
+
+    color: #000;
+
+    border-radius: 10px;
+}
+
+.products .item-1 .tag h4{
+    position: absolute;
+    left: 10px;
+
+    font-family: 'saira';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+
+    color: #000;
+}
+
+.products .item-2{
+    position: absolute;
+    width: 350px;
+    height: 250px;
+    top: 140px;
+    left: 990px;
+    cursor: pointer;
+
+    background: url(/img/image\ 2.jpg);
+    border-radius: 15px;
+}
+.products .item-2 .tag{
+    position: absolute;
+    width: 320px;
+    height: 50px;
+    top: 190px;
+    left: 13.5px;
+
+    background: #fff;
+
+    border-radius: 10px;
+}
+.products .item-2 .tag h3{
+    font-family: 'salsa';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    padding-left: 10px;
+
+    color: #000;
+
+    border-radius: 10px;
+}
+.products .item-2 .tag h4{
+    position: absolute;
+    left: 10px;
+
+    font-family: 'saira';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+
+    color: #000;
+}
+
+.products .item-3 {
+    position: absolute;
+    width: 350px;
+    height: 220px;
+    top: 400px;
+    left: 990px;
+    cursor: pointer;
+
+    background: url(/img/image\ 3.jpg);
+    border-radius: 15px;
+}
+
+.products .item-3 .tag{
+    position: absolute;
+    width: 320px;
+    height: 50px;
+    top: 160px;
+    left: 13.5px;
+
+    background: #fff;
+    border-radius: 10px;
+}
+
+.products .item-3 .tag h3{
+    font-family: 'salsa';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    padding-left: 10px;
+
+    color: #000;
+
+    border-radius: 10px;
+}
+
+.products .item-3 .tag h4{
+    position: absolute;
+    left: 10px;
+
+    font-family: 'saira';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+
+    color: #000;
+}
